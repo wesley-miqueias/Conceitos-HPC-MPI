@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE="somaVetor.bas"
+SOURCE="somaVetor.f90"
 OPTS=("-O0" "-O1" "-O2" "-O3")
 
 echo "--- Compilação e Teste (O0 a O3) ---"

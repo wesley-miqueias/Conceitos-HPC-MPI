@@ -1,7 +1,7 @@
 program somaVetor
    implicit none
 
-   integer, parameter  :: N = 100000000, NT=1
+   integer, parameter  :: N = 100000000, NT=4
    real                :: v(N)
    real(8)             :: soma
    integer             :: i,j
@@ -22,6 +22,7 @@ program somaVetor
    
    end do ! NT
 
+   print*, "NT    = ", NT
    print*, "N     = ", N
    print*, "Soma  = ", soma
 

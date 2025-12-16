@@ -1,6 +1,7 @@
 # Executáveis
 *.out
 *.exe
+*.x
 somaVetor
 
 # Objetos
